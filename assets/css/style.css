@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* brand font */
+.lobster-regular {
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.teko-heading {
+    font-family: "Teko", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+    overflow-x: hidden;
+}
