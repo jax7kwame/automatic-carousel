@@ -1,30 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+/* Animation on scroll */
 
+/* @keyframes wipe-enter {
+    0% {
+        transform: scale(0, 0.025);
+    }
 
+    50% {
+        transform: scale(1, 0.025);
+    }
+} */
 
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-/* brand font */
-.lobster-regular {
-    font-family: "Lobster", serif;
-    font-weight: 400;
-    font-style: normal;
-}
+/* end services */
 
 
-.teko-heading {
-    font-family: "Teko", serif;
+/* .square-animation {
+    animation-name: wipe-enter;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+} */
+
+
+.gallery-header {
+    text-align: center;
+    font-family: "National Park", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
+
 }
 
-body {
-    overflow-x: hidden;
+.card-header span {
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.container .gallery-card .card-img-top {
+    border-radius: 20px;
+}
+
+.header-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.card-body i {
+    cursor: pointer;
+}
+
+.img-zoom {
+    overflow: hidden;
+    /* add last */
+    border-radius: 20px;
+}
+
+.img-zoom:hover img {
+    transform: scale(1.1);
+}
+
+.img-zoom img {
+    transition: transform 1s ease;
+}
+
+.week-photo {
+    width: 100%;
+    height: 100vh;
+    border-radius: 15px;
+}
+
+
+.more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.more-photos-btn {
+    font-family: "National Park", sans-serif;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 6px 25px 8px 25px;
+    font-weight: 500;
+    border-radius: 20px;
+
+}
+
+.more-photos-btn:hover {
+    color: teal;
+    border-color: teal;
 }
