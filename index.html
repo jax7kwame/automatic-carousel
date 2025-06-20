@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>automatic carousel</title>
+    <title>gallery</title>
 
     <!-- custom css -->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -16,7 +16,205 @@
 </head>
 
 <body>
-    <h2>Setup</h2>
+
+    <!-- Gallery -->
+    <div class="container">
+        <div class="my-5">
+            <h1 class="gallery-header">gallery</h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Photo 1 -->
+            <div class="col">
+                <div class="card gallery-card border-0 bg-white">
+                    <!-- profile -->
+                    <div class="card-header bg-white border-0 ms-0 ps-0 mb-2">
+                        <img src="./assets/images/profile/alexander-krivitskiy-tfq5eYDlxLw-unsplash (2).jpg"
+                            class="header-img" alt="...">
+                        <span class="ms-2 fw-bold">max hall</span>
+                    </div>
+                    <!-- photo -->
+                    <div class="img-zoom">
+                        <img src="./assets/images/collection.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <!-- actions -->
+                    <div class="card-body">
+                        <div>
+                            <i id="like" onclick="" class="bi bi-heart fs-2 me-5"></i>
+
+                            <i class="bi bi-plus-square fs-2 me-3"></i>
+
+                            <i class="bi bi-download fs-2 me-2"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Photo 1 -->
+            <!-- Photo 2 -->
+            <div class="col">
+                <div class="card gallery-card border-0 bg-white">
+                    <div class="card-header bg-white border-0 ms-0 ps-0 mb-2">
+
+                        <img src="./assets/images/profile/amir-khan-L5gdky77Cxk-unsplash.jpg" class="header-img"
+                            alt="...">
+                        <span class="ms-2 fw-bold">max hall</span>
+
+
+                    </div>
+                    <div class="img-zoom">
+                        <img src="./assets/images/fullshelves.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <div>
+
+                            <i id="like" onclick="likeFunc()" class="bi bi-heart fs-2 me-4"></i>
+
+                            <i class="bi bi-plus-square fs-2 me-2"></i>
+
+                            <i class="bi bi-download fs-2 me-2"></i>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End Photo 2 -->
+            <!-- Photo 3 -->
+            <div class="col">
+                <div class="card gallery-card border-0 bg-white">
+                    <div class="card-header bg-white border-0 ms-0 ps-0 mb-2">
+
+                        <img src="./assets/images/profile/amir-khan-L5gdky77Cxk-unsplash.jpg" class="header-img"
+                            alt="...">
+                        <span class="ms-2 fw-bold">max hall</span>
+
+
+                    </div>
+                    <div class="img-zoom">
+                        <img src="./assets/images/hats-line.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <div>
+
+                            <i id="like" onclick="likeFunc()" class="bi bi-heart fs-2 me-5"></i>
+
+                            <i class="bi bi-plus-square fs-2 me-3"></i>
+
+                            <i class="bi bi-download fs-2 me-2"></i>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End Photo 3 -->
+            <!-- Photo 4 -->
+            <div class="col">
+                <div class="card gallery-card border-0 bg-white">
+                    <div class="card-header bg-white border-0 ms-0 ps-0 mb-2">
+
+                        <img src="./assets/images/profile/harsh-aryan-H0fT6PuxJWs-unsplash.jpg" class="header-img"
+                            alt="...">
+                        <span class="ms-2 fw-bold">max hall</span>
+
+
+                    </div>
+                    <div class="img-zoom">
+                        <img src="./assets/images/payment.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <i id="like" onclick="likeFunc()" class="bi bi-heart fs-2 me-5"></i>
+
+                            <i class="bi bi-plus-square fs-2 me-3"></i>
+
+                            <i class="bi bi-download fs-2 me-2"></i>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End Photo 4 -->
+            <!-- Photo 5 -->
+            <div class="col">
+                <div class="card gallery-card border-0 bg-white">
+                    <div class="card-header bg-white border-0 ms-0 ps-0 mb-2">
+
+                        <img src="./assets/images/profile/harsh-aryan-H0fT6PuxJWs-unsplash.jpg" class="header-img"
+                            alt="...">
+                        <span class="ms-2 fw-bold">max hall</span>
+
+
+                    </div>
+                    <div class="img-zoom">
+                        <img src="./assets/images/red-combo.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <div>
+
+                            <i id="like" onclick="likeFunc()" class="bi bi-heart fs-2 me-5"></i>
+
+                            <i class="bi bi-plus-square fs-2 me-3"></i>
+
+                            <i class="bi bi-download fs-2 me-2"></i>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End Photo 5 -->
+            <!-- Photo 6 -->
+            <div class="col">
+                <div class="card gallery-card border-0 bg-white">
+                    <div class="card-header bg-white border-0 ms-0 ps-0 mb-2">
+
+                        <img src="./assets/images/profile/alexander-krivitskiy-tfq5eYDlxLw-unsplash (2).jpg"
+                            class="header-img" alt="...">
+                        <span class="ms-2 fw-bold">max hall</span>
+
+
+                    </div>
+                    <div class="img-zoom">
+                        <img src="./assets/images/shirt-line.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <div>
+
+                            <i id="like" onclick="likeFunc()" class="bi bi-heart fs-2 me-5"></i>
+
+                            <i class="bi bi-plus-square fs-2 me-3"></i>
+
+                            <i class="bi bi-download fs-2 me-2"></i>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End Photo 6 -->
+        </div>
+    </div>
+    <!-- End Gallery -->
+    <!-- photo of the week -->
+    <div class="my-5 pt-4">
+        <h1 class="gallery-header">photo of the week</h1>
+    </div>
+    <div class="container-fluid my-4">
+        <div class="week-photo">
+            <img src="./assets/images/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg" alt="" height="100%" width="100%"
+                style="object-fit: cover; border-radius: 30px;">
+        </div>
+    </div>
+    <!-- end -->
+    <!-- more photos -->
+    <div class="more">
+        <a href="#" class="more-photos-btn">more</a>
+    </div>
+
+    <!-- end -->
+
+
 
     <!-- Bootstrap JS -->
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
